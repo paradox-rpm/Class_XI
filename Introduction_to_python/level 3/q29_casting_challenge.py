@@ -1,0 +1,8 @@
+s1 = input("Number 1: ")
+s2 = input("Number 2: ")
+i1, i2 = int(s1), int(s2)
+f1, f2 = float(s1), float(s2)
+print("Int Sum:", i1 + i2, "Type:", type(i1 + i2))
+print("Float Sub:", f1 - f2, "Type:", type(f1 - f2))
+print("Int Mul:", i1 * i2, "Type:", type(i1 * i2))
+print("Float Div:", f1 / f2, "Type:", type(f1 / f2))

@@ -1,0 +1,5 @@
+sec = int(input("Enter seconds: "))
+h = sec // 3600
+m = (sec % 3600) // 60
+s = sec % 60
+print(f"{h} hours, {m} minutes, {s} seconds")

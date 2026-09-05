@@ -1,0 +1,6 @@
+cp = float(input("Cost Price: "))
+q = int(input("Quantity: "))
+d = float(input("Discount %: "))
+total = (cp * q)
+final = total - (total * d / 100)
+print("Final Price:", final)
